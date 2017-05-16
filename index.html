@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jen Goodridge</title>
+    <style>
+    @font-face {
+        font-family: 'Lato-Black';
+        font-weight: 700;
+        font-style: normal;
+        font-stretch: normal;
+        src: url('/fonts/Lato-Black.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'Rasa';
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        src: url('/fonts/Rasa-Light.ttf') format('truetype');
+    }
+
+    html {
+        height: 100%;
+        font-size: 1.5rem;
+        line-height: 1rem;
+    }
+
+    body {
+        font-family: Rasa;
+        font-weight: 300;
+        background: #dcf1ee;
+        color: #263a5d;
+
+        font-size: 1rem;
+        font-weight: 400;
+        height: 100%;
+        line-height: 1.4rem;
+        margin: 0;
+        text-shadow: 0 1px 0 white;
+    }
+
+    h1 {
+        font-family: "Lato-Black", sans-serif;
+    }
+
+    a {
+        color: #2980b9;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #1970a9;
+    }
+
+    #container {
+        display: table;
+        height: 100%;
+        margin: 0 auto;
+        max-width: 960px;
+    }
+
+    #content {
+        display: table-cell;
+        padding: 0 0.75rem;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* Resize for Mobile */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        html { font-size: 1.3rem; }
+        body { line-height: 1.5rem; }
+    }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <section id="content">
+            <h1>Hi! I'm Jen Goodridge.</h1>
+            <p>I'm an aspiring software developer. Over the past year, I have learned how to program in Python, built problem solving skills, and reviewed data structures. I'm primarily self-taught, but I have also taken CS courses in college, which include beginner OOP courses and data structures. If you wish to contact me, feel free to get in touch below.</p>
+            <p>Resume &mdash; <a href ="mailto:jen@jengoodridge.com">Email</a> &mdash; <a href="https://github.com/JenGoodridge">GitHub</a> &mdash; <a href="https://www.hackerrank.com/jengoodr">HackerRank</a></p>
+        </section>
+    </section>
+</body>
+</html>
